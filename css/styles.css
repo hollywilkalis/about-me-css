@@ -13,7 +13,7 @@
 }
 .header h3{
   font-family: 'Gochi Hand', cursive;
-  font-size: 35px;
+  font-size: 50px;
   float: left;
   display: inline;
   margin-top: 11px;
@@ -41,6 +41,8 @@
 .top{
   overflow: auto;
   position: relative;
+  margin-bottom: 32px;
+  margin-top: 20px;
 }
 .left-side{
   position: relative;
@@ -48,7 +50,12 @@
   width: 70%;
 }
 .left-side h3{
+  font-size: 20px;
 
+}
+.left-side h4{
+  font-size: 16px;
+  font-weight: 300;
 }
 .right-side{
   position: relative;
@@ -68,6 +75,13 @@
   padding-bottom: 3px;
   list-style-type: none;
   font-size: 14px;
+}
+.middle{
+  display:inline;
+  margin-top: 20px;
+}
+img{
+  width: 33%;
 }
 .red-text{
   color: #ec685a;
