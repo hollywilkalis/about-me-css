@@ -1,0 +1,74 @@
+.wrap{
+  background-color: #f2f1ed;
+  overflow: auto;
+  padding: 20px;
+  position: relative;
+  font-family: 'Roboto Slab', serif;
+}
+.header{
+  overflow: auto;
+}
+.site-title{
+  float: left;
+}
+.header h3{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 35px;
+  float: left;
+  display: inline;
+  margin-top: 11px;
+}
+.nav{
+  /*display: inline;*/
+  float: right;
+}
+.nav h3 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25px;
+  float: right;
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.special-nav::after{
+  content: "∨";
+  color: #ec685a;
+  position: relative;
+  font-size: 26px;
+  top: 18px;
+  left: -38px;
+}
+.top{
+  overflow: auto;
+  position: relative;
+}
+.left-side{
+  position: relative;
+  float: left;
+  width: 70%;
+}
+.left-side h3{
+
+}
+.right-side{
+  position: relative;
+  float: right;
+  width: 25%;
+}
+.right-side h5{
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.right-side ul{
+  margin-top: 5px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+.right-side li{
+  padding-bottom: 3px;
+  list-style-type: none;
+  font-size: 14px;
+}
+.red-text{
+  color: #ec685a;
+}
